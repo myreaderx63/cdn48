@@ -1,0 +1,1021 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>科学网—博客</title>
+<link href="static/blog/css/blogcss.css" rel="stylesheet" type="text/css" />
+<meta name="description" content="科学网博客-构建全球华人科学博客圈" />
+<meta name="keywords" content="科学  博客  教育  导师  研究生  科研  论文  期刊  SCI   基金  人才  海归  科普 待遇  职称  博士  留学" />
+</head>
+<body>
+<div id="container">
+  <div id="wrapper">
+    	<script language="javascript">
+<!--
+function browserRedirect() {		
+var sUserAgent= navigator.userAgent.toLowerCase();		
+var bIsIpad= sUserAgent.match(/ipad/i) == "ipad";		
+var bIsIphoneOs= sUserAgent.match(/iphone os/i) == "iphone os";		
+var bIsMidp= sUserAgent.match(/midp/i) == "midp";		
+var bIsUc7= sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";		
+var bIsUc= sUserAgent.match(/ucweb/i) == "ucweb";		
+var bIsAndroid= sUserAgent.match(/android/i) == "android";		
+var bIsCE= sUserAgent.match(/windows ce/i) == "windows ce";		
+var bIsWM= sUserAgent.match(/windows mobile/i) == "windows mobile";		
+if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+document.write("<div style='padding-left:4em'><a href=\"http://wap.sciencenet.cn/\" style='font-size:2em;color:#ba1413;line-height:2em;text-indent:4em'>点击此处切换为手机版网页</a></div>");
+} else {		
+//window.location= '电脑网站地址';		
+}		
+}
+browserRedirect(); 
+/*
+var curIndex=0;
+var timeInterval = 3000;
+var arrimg = new Array();
+var arrhref = new Array();
+arrimg[0] = "static/blog/images/88.gif";
+arrimg[1] = "http://www.sciencenet.cn/images/科研梦-从这里起步.jpg";
+
+arrhref[0] = "http://www.sciencedate.cn/";
+arrhref[1] = "http://zhengwen.sciencenet.cn/";
+
+setInterval(changeImg, timeInterval);
+function changeImg()
+{
+var objimg = document.getElementById("bannerimg");
+var objhref = document.getElementById("bannerhref");
+if (curIndex == arrimg.length-1)
+{
+curIndex = 0;
+}
+else
+{
+   curIndex = 1;
+}
+objimg.src = arrimg[curIndex];
+objhref.href = arrhref[curIndex];
+}*/
+//-->
+</script>	
+<!--banner-->
+    <div class="banner" style="height:78px;display:none"><a id="bannerhref" href="http://zhengwen.sciencenet.cn/" target="_blank"><img id="bannerimg" src="http://www.sciencenet.cn/images/科研梦-从这里起步.jpg" width="970" ></a></div>
+    <!--header-->
+    <div id="header">
+      <!--登录-->
+  <iframe src="plus.php?mod=iframelogin" scrolling="no" frameborder="0" style="width: 100%;height:32px;"></iframe>
+      <!--导航-->
+      <div class="nav">
+        <div class="logo"><img src="static/blog/images/blog.jpg" width="231" height="84" /></div>
+        <div class="rg" >
+        	<span style="float:left;">
+        		<a href="http://www.sciencenet.cn/life/">生命科学</a>│
+                <a href="http://www.sciencenet.cn/medicine/">医学科学</a>│
+                <a href="http://www.sciencenet.cn/chemistry/">化学科学</a>│
+                <a href="http://www.sciencenet.cn/material/">工程材料</a>│
+                <a href="http://www.sciencenet.cn/information/">信息科学</a>│
+                <a href="http://www.sciencenet.cn/earth/">地球科学</a>│
+                <a href="http://www.sciencenet.cn/mathematics/">数理科学</a>│
+                <a href="http://www.sciencenet.cn/policy/">管理综合</a>
+        	</span> 
+        	<span style=" float:right ">
+         		<a href="http://www.sciencenet.cn/dz/add_user.aspx">电子杂志</a> |
+               <a href="http://wap.sciencenet.cn/" >手机版</a> 
+         	</span>
+        </div>
+        <div class="rg01">
+        	<span style="float:left; "> 
+               <a href="http://www.sciencenet.cn/">首页</a> |<a href="http://news.sciencenet.cn/">新闻</a> |<a href="http://blog.sciencenet.cn/blog.php">博客</a> |<a href="http://news.sciencenet.cn/ys">院士</a> |<a href="http://talent.sciencenet.cn/">人才</a> |<a href="http://meeting.sciencenet.cn">会议</a> |<a href="http://fund.sciencenet.cn/">基金</a> |<a href="http://news.sciencenet.cn/morenews-9-1.aspx">大学</a> |<a href="http://news.sciencenet.cn/morenews-7-1.aspx">国际</a> |<a href="http://paper.sciencenet.cn/">论文</a> |<a href="https://v.sciencenet.cn/index">视频</a> |<a href="http://paper.sciencenet.cn/AInews">小柯机器人</a>
+            </span>
+          <div style="float:right; padding-left:10px;">
+            <form name="f1" accept-charset="gb2312" action="http://www.baidu.com/baidu"  method='get'>
+          	<span>
+            <input type="text" name="word" id="textfield"class="input01" />
+            <input name='ct' type='hidden' value='2097152'>
+            <input name='cl' type='hidden' value='3'>
+            <input name='si' type='hidden' value="blog.sciencenet.cn">
+            <input name='ie' type='hidden' value='gbk'>
+            </span> 
+            <span>
+                <a href="#" >
+               		<input type="submit" style="cursor:pointer; width:56px; font-size:12px; background-color:#880008; border-width:0px; height:16px; color:#fff;" value="本站搜索" />
+                </a>
+            </span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--当前位置-->
+    <div  class="weizhi">
+    	<span class="wl">当前位置：<a href="http://www.sciencenet.cn">科学网首页</a> > <span class="red">博客首页</span></span>
+        <span class="wr"> 
+        <a href="home.php?mod=space">进入我的博客</a> │ 
+        <a href="home.php?mod=space&amp;uid=45">科学网博客</a> │ 
+        <a href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=45&amp;do=blog&amp;quickforward=1&amp;id=552236">博主委员会</a> │ 
+       	<a href="http://blog.sciencenet.cn/misc.php?mod=faq"> 博客帮助</a> │ 
+        <a href="search.php?mod=blog">博文搜索</a>
+        </span>
+    </div>
+    <!--主体内容-->
+    <div id="main">
+      <!--left-->
+      <div class="mleft">
+        <div class="imgbox">
+            <a href="http://blog.sciencenet.cn/blog-105489-1248626.html" target="_blank">
+            <img src="./data/attachment/blog/202008/145419ts0exfoateyzak0s.jpg" width="200" height="150" />
+            </a>
+          <p>
+          <a href="http://blog.sciencenet.cn/blog-105489-1248626.html" title="_blank">多利亚城堡</a></p>
+        </div>
+      </div>
+      <!--center-->
+      <div class="mcenter">
+        <div class="mcbox" style="padding-bottom:7px; height:206px;" >
+          <h2><a href="http://blog.sciencenet.cn/blog-374215-1248718.html" target="_blank">人体能源物质是怎样利用的？</a></h2>
+          <div class="height"><a href="http://blog.sciencenet.cn/blog-374215-1248718.html" target="_blank">人每天从不同食物中汲取里面的糖、脂肪、蛋白质等能源物质，然后由这些能源物质再转变合成ATP（三磷酸腺苷），从而满足一切生理活动的需要&hellip;&hellip;史仍飞</a></div>
+          <h2><a href="http://blog.sciencenet.cn/blog-3389532-1248646.html" target="_blank">人工智能的尽头是人工？</a></h2>
+          <div class="height"><a href="http://blog.sciencenet.cn/blog-3389532-1248646.html" target="_blank">人工智能并不能百分之百包打天下。更极端情况下，人工智能的尽头可能是人工。目前人工智能技术的落地主要是在预测能力能达到应用级的应用上&hellip;&hellip;张军平</a></div>
+          <p style="text-align:right;"><a href="blog.php?mod=first" target="_blank">更多></a></p>
+        </div>
+      </div>
+      <!--right-->
+      <div class="mright">
+        <!--公告栏-->
+        <div class="box">
+          <h3><a href="blog.php?mod=notice" target="_blank">公告栏</a><span class="more"><a href="blog.php?mod=notice" target="_blank">更多></a></span></h3>
+          <div class="font2">
+            <ul>
+                            <li>·<a href="http://blog.sciencenet.cn/blog-45-1245369.html" target="_blank" title="科学网招聘实习生2名" style="color:red">科学网招聘实习生2名</a></li>              <li>·<a href="http://fund.sciencenet.cn/" target="_blank" title="升级！科学网基金，一键查询" style="color:red">升级！科学网基金，一键查询</a></li>            </ul>
+          </div>
+        </div>
+        <!--最新博文-->
+        <div class="box">
+          <h1><a href="blog.php?mod=new" target="_blank">最新博文</a><span class="more"><a href="blog.php?mod=new" target="_blank">更多></a></span></h1>
+          <div class="font2">
+            <ul>
+               
+              <li>·<a href="blog-347754-1248763.html" title="狂犬病毒的分类" target="_blank" >狂犬病毒的分类</a></li>
+      		   
+              <li>·<a href="blog-447363-1248761.html" title="游徐闻古港" target="_blank" >游徐闻古港</a></li>
+      		   
+              <li>·<a href="blog-252763-1248760.html" title="杜鹃花" target="_blank" >杜鹃花</a></li>
+      		   
+              <li>·<a href="blog-3319332-1248754.html" title="20200901——萍蓬草（Nuphar&#160;pumilum&#160;(Hoffm.) DC.）" target="_blank" >20200901——萍蓬草（Nuphar&#160;&hellip;</a></li>
+      		              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div id="main">
+      <!--left-->
+      <div class="mleft">
+        <!--新博推荐-->
+        <div class="box">
+          <h1>新博推荐</h1>
+          <div class="font2">
+          <table width="206" cellSpacing="0" cellPadding="0">
+          <tr>
+                    <td width="25%" style="padding-bottom:0px">
+          	<div style="height:22px;overflow: hidden;"><a href="home.php?mod=space&amp;uid=3446898" target="_blank" title="李忠海">李忠海</a></div></td>
+                              <td width="25%" style="padding-bottom:0px">
+          	<div style="height:22px;overflow: hidden;"><a href="home.php?mod=space&amp;uid=3446843" target="_blank" title="刘东友">刘东友</a></div></td>
+                              <td width="25%" style="padding-bottom:0px">
+          	<div style="height:22px;overflow: hidden;"><a href="home.php?mod=space&amp;uid=3446543" target="_blank" title="张左兵">张左兵</a></div></td>
+                              <td width="25%" style="padding-bottom:0px">
+          	<div style="height:22px;overflow: hidden;"><a href="home.php?mod=space&amp;uid=3445987" target="_blank" title="周冠武">周冠武</a></div></td>
+                    </tr><tr>
+                              <td width="25%" style="padding-bottom:0px">
+          	<div style="height:22px;overflow: hidden;"><a href="home.php?mod=space&amp;uid=3445347" target="_blank" title="李娟">李娟</a></div></td>
+                              <td width="25%" style="padding-bottom:0px">
+          	<div style="height:22px;overflow: hidden;"><a href="home.php?mod=space&amp;uid=3444987" target="_blank" title="余林凤">余林凤</a></div></td>
+                              <td width="25%" style="padding-bottom:0px">
+          	<div style="height:22px;overflow: hidden;"><a href="home.php?mod=space&amp;uid=3444769" target="_blank" title="闫如玉">闫如玉</a></div></td>
+                              <td width="25%" style="padding-bottom:0px">
+          	<div style="height:22px;overflow: hidden;"><a href="home.php?mod=space&amp;uid=3443319" target="_blank" title="王大海">王大海</a></div></td>
+                              <tr/>
+          </table>
+       	  </div>
+        </div>
+        <!--机构博客-->
+        <div class="box">
+          <h1>机构博客</h1>
+          <div class="jg" style="height:229px">
+            <ul>
+              <li style="width:80px;" >
+              	<a href="home.php?mod=space&amp;uid=528739" target="_blank">科学出版社</a>
+              </li>
+              <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=502977" target="_blank">中国科大出版社</a>
+              </li>
+              <li style="width:80px;">
+              	<a href="home.php?mod=space&amp;uid=425155" target="_blank">人才招聘</a>
+              </li>
+              <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=655618" target="_blank">吴瑞纪念基金会</a>
+              </li>
+              <li style="width:80px;">
+              	<a href="home.php?mod=space&amp;uid=681387" target="_blank">Enago英论阁</a>
+              </li>
+        <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=769813" target="_blank">Editage意得辑</a>
+              </li>
+              <li style="width:80px;">
+                <a href="home.php?mod=space&amp;uid=822310" target="_blank">Wiley中国</a>
+              </li>
+        <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=1232242" target="_blank">美国LetPub编辑</a>
+              </li>
+  			      <li style="width:80px;">
+              	<a href="home.php?mod=space&amp;uid=475824" target="_blank">美捷登编辑</a>
+              </li>
+              <li style="width:100px;">
+              	<a href="home.php?mod=space&amp;uid=3201402" target="_blank">Charlesworth论文</a>
+              </li>
+  <li style="width:80px;">
+              	<a href="home.php?mod=space&amp;uid=3436422" target="_blank">哲源科技</a>
+              </li>
+              <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=3387871" target="_blank">国际科学编辑</a>
+              </li>
+              <li style="width:80px;">
+              	<a href="home.php?mod=space&amp;uid=3344631" target="_blank">AJE学术交流</a>
+              </li>
+               <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=3411312" target="_blank">Hindawi出版社</a>
+              </li>
+              <li style="width:80px;">
+              	<a href="home.php?mod=space&amp;uid=3411509" target="_blank">NML纳微快报</a>
+              </li>
+             <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=2961180" target="_blank">Wordvice霍华斯</a>
+              </li>
+   <li style="width:80px;">
+              	<a href="home.php?mod=space&amp;uid=3234092" target="_blank">投必得编辑</a>
+              </li>
+   
+   <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=3432244" target="_blank">自然科研服务</a>
+              </li>
+  <li style="width:80px;">
+              	<a href="home.php?mod=space&amp;uid=3431102" target="_blank">中国国际图书</a>
+              </li>
+  <li style="width:95px;">
+              	<a href="home.php?mod=space&amp;uid=3436423" target="_blank">中科人工智能</a>
+              </li>
+            </ul>
+          </div>
+          <div class="font1">
+            <ul>
+                            <li>·<a  href="blog-3234092-1248750.html" target="_blank" title="假期后如何让研究生及时进入状态！" >假期后如何让研究生及时进入&hellip;</a></li>
+ 			                <li>·<a  href="blog-3411509-1248726.html" target="_blank" title="二维黑磷：用于锂离子电池的新兴负极材料" >二维黑磷：用于锂离子电池的&hellip;</a></li>
+ 			                <li>·<a  href="blog-3411312-1248717.html" target="_blank" title="以科研人员为本，Hindawi与多家机构合作，助力科研发展" >以科研人员为本，Hindawi与&hellip;</a></li>
+ 			                <li>·<a  href="blog-475824-1248678.html" target="_blank" title="未上市的新冠病毒疫苗之争: COVID-19疫苗产能、供应与分配" >未上市的新冠病毒疫苗之争: &hellip;</a></li>
+ 			                <li>·<a  href="blog-425155-1248668.html" target="_blank" title="鹏城实验室博士后全球招募" >鹏城实验室博士后全球招募</a></li>
+ 			                <li>·<a  href="blog-425155-1248659.html" target="_blank" title="陆军军医大学创伤、烧伤与复合伤国家重点实验室" >陆军军医大学创伤、烧伤与复&hellip;</a></li>
+ 			                <li>·<a  href="blog-822310-1248656.html" target="_blank" title="Advanced家族期刊新成员——AXR系列期刊上线了！" >Advanced家族期刊新成员——&hellip;</a></li>
+ 			                <li>·<a  href="blog-769813-1248625.html" target="_blank" title="发表会议论文 v.s 期刊论文，孰先孰后" >发表会议论文 v.s 期刊论文&hellip;</a></li>
+ 			                <li>·<a  href="blog-3387871-1248619.html" target="_blank" title="第一封发给未来导师的套磁信怎么写？" >第一封发给未来导师的套磁信&hellip;</a></li>
+ 			                <li>·<a  href="blog-3344631-1248618.html" target="_blank" title="除了科研论文的文本查重，图片查重软件已在路上" >除了科研论文的文本查重，图&hellip;</a></li>
+ 			                <li>·<a  href="blog-3432244-1248295.html" target="_blank" title="8月31日19:30，《自然》编辑与您相约直播间，记得来打卡噢！" >8月31日19:30，《自然》编辑&hellip;</a></li>
+ 			                <li>·<a  href="blog-528739-1248282.html" target="_blank" title="青藏高原“大湖期”之谜" >青藏高原“大湖期”之谜</a></li>
+ 			              </ul>
+          </div>
+        </div>
+        <!--博主名录-->
+        <div class="box">
+          <h1><a href="blog.php?mod=member" target="_blank">博主名录</a><span class="more"><a href="blog.php?mod=member" target="_blank">全部用户</a></span></h1>
+  <!--<div class="ml"><span><a href="javascript:;" onClick="changehUserList(1)" onFocus="blur()">数理科学</a></span><span><a href="javascript:;" onClick="changehUserList(2)" onFocus="blur()">管理综合</a></span><span><a href="javascript:;" onClick="changehUserList(3)" onFocus="blur()">生命科学</a></span></div>
+          <div class="ml"><span><a href="javascript:;" onClick="changehUserList(4)" onFocus="blur()">医学科学</a></span><span><a href="javascript:;" onClick="changehUserList(5)" onFocus="blur()">化学科学</a></span><span><a href="javascript:;" onClick="changehUserList(6)" onFocus="blur()">工程材料</a></span></div>
+          <div class="ml"><span><a href="javascript:;" onClick="changehUserList(7)" onFocus="blur()">信息科学</a></span><span><a href="javascript:;" onClick="changehUserList(8)" onFocus="blur()">地球科学</a></span></div>
+          <div class="ml" style="margin-top: 5px"><span><a href="blog.php?mod=member&amp;type=数理科学">数理科学</a></span><span><a href="blog.php?mod=member&amp;type=管理综合">管理综合</a></span><span><a href="blog.php?mod=member&amp;type=生命科学">生命科学</a></span></div>
+          <div class="ml"><span><a href="blog.php?mod=member&amp;type=信息科学">信息科学</a></span><span><a href="blog.php?mod=member&amp;type=地球科学">地球科学</a></span><span><a href="blog.php?mod=member&amp;type=工程材料">工程材料</a></span></div>
+          <div class="ml" style="border-bottom:none"><span><a href="blog.php?mod=member&amp;type=医学科学">医学科学</a></span><span><a href="blog.php?mod=member&amp;type=化学科学">化学科学</a></span></div>-->
+         
+        </div>
+
+        <!--特别推荐-->
+        <script src="./static/js/blog_index.js" type="text/javascript"></script>
+        <script type="text/javascript">
+         function changeReUser(order){
+ for(var i=0;i<3;i++){
+if(order==i){
+document.getElementById('reUserListCtr'+i).style.display='none';
+document.getElementById('reUserListList'+i).style.display='';	
+}else{
+document.getElementById('reUserListCtr'+i).style.display='';
+document.getElementById('reUserListList'+i).style.display='none';
+} 
+ }
+ }
+        </script>
+        <div class="box" >
+          <h1><a href="blog.php?mod=recomember" target="_blank">特别推荐</a><span class="more"><a href="blog.php?mod=recomember" target="_blank">更多></a></h1>  
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr >
+            <td height="45" align="center" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0" >
+                      <tr>
+                        <td width="20%" align="center" valign="middle"><a href="home.php?mod=space&uid=2321" target="_blank"><img src="/data/attachment/olddata/kexue.com.cn/admin/upload/s_200783102254381626.jpg" width="38" height="38" /></a></td>
+                        <td width="80%" height="45" align="left"><a href="home.php?mod=space&uid=2321" title="李世春：石油大学机电工程学院教授" target="_blank" style="overflow:hidden;">李世春：石油大学机电工程学院教授</a></td>
+                      </tr>
+                    </table></td>
+          </tr>
+          <tr id="reUserListCtr0" style="display:none">
+            <!--
+            <td height="22"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="zhank">
+                      <tr>
+                        <td width="80%" align="right"><img src="static/blog/images/icon1.gif" width="8" height="8" /></td>
+                        <td width="20%" align="left" class="font22"><a href="javascript:;" onclick="changeReUser(0);">展开</a></td>
+                      </tr>
+                    </table></td>
+            -->
+          </tr>
+          <tr id="reUserListList0" style="display:">
+            <td><div class="font3">
+                    <ul>
+                                        </ul>
+                  </div></td>
+          </tr>
+                    <tr >
+            <td height="45" align="center" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0" >
+                      <tr>
+                        <td width="20%" align="center" valign="middle"><a href="home.php?mod=space&uid=1248" target="_blank"><img src="/data/attachment/olddata/kexue.com.cn/admin/upload/s_200751375659515300.jpg" width="38" height="38" /></a></td>
+                        <td width="80%" height="45" align="left"><a href="home.php?mod=space&uid=1248" title="郝柏林：中国科学院院士，理论物理学家" target="_blank" style="overflow:hidden;">郝柏林：中国科学院院士，理论物理学家</a></td>
+                      </tr>
+                    </table></td>
+          </tr>
+          <tr id="reUserListCtr1" style="display:">
+            <!--
+            <td height="22"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="zhank">
+                      <tr>
+                        <td width="80%" align="right"><img src="static/blog/images/icon1.gif" width="8" height="8" /></td>
+                        <td width="20%" align="left" class="font22"><a href="javascript:;" onclick="changeReUser(1);">展开</a></td>
+                      </tr>
+                    </table></td>
+            -->
+          </tr>
+          <tr id="reUserListList1" style="display:none">
+            <td><div class="font3">
+                    <ul>
+                                        </ul>
+                  </div></td>
+          </tr>
+                  </table>      
+        </div>
+      </div>
+      <!--center-->
+      <div class="mcenter">
+        <div class="mcbox01">
+          <h3><span><a href="blog.php?mod=recommend" target="_blank">精选博文</a></span>
+           <span class="zhouqi">
+          <a href="javascript:;" class ="s" id="Resli_1" onClick="changeBlogrecommend(1)" >36小时</a>&nbsp;&nbsp;
+          <!--<a href="javascript:;" id="sli_2" onClick="changeBlogHot(2)" >三天</a> -->
+          <a href="javascript:;" id="Resli_2" onClick="changeBlogrecommend(2)" >一周</a>&nbsp;&nbsp; 
+          <!--<a href="javascript:;" id="sli_4" onClick="changeBlogHot(4)" >两周</a>-->
+          <a href="javascript:;" id="Resli_3" onClick="changeBlogrecommend(3)" >一月</a>&nbsp;&nbsp; 
+          <!--<a href="javascript:;" id="sli_6" onClick="changeBlogHot(6)" >三月</a>--> 
+          <a href="javascript:;" id="Resli_4" onClick="changeBlogrecommend(4)" >半年</a>&nbsp;&nbsp;
+          <a href="javascript:;" id="Resli_5" onClick="changeBlogrecommend(5)" >所有时间</a>
+          </span>
+          <span class="more02"><a href="http://blog.sciencenet.cn/blog.php?mod=recommend" target="_blank">更多></a>
+          </span>
+         </h3>
+          <div class="jxbw"  id="recommendBlogTable">
+                      <p>
+            <span class="l">·<a href="blog-3234092-1248750.html" target="_blank">玩转寒暑假后，你的科研已欠费请及时充值</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=3234092" target="_blank" title="投必得">投必得</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-1557-1248734.html" target="_blank">竞聘答辩时可能遇到的问题及回答</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=1557" target="_blank" title="武夷山">武夷山</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-3411509-1248726.html" target="_blank">二维黑磷：用于锂离子电池的新兴负极材料</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=3411509" target="_blank" title="纳微快报">纳微快报</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-3319332-1248671.html" target="_blank">紫薇花：盛夏绿遮眼，此花红满堂！</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=3319332" target="_blank" title="栗茂腾">栗茂腾</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-299-1248662.html" target="_blank">张海霞︱没事儿千万不要写日记</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=299" target="_blank" title="张海霞">张海霞</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-729911-1248636.html" target="_blank">写在开学之时</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=729911" target="_blank" title="李东风">李东风</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-3344631-1248618.html" target="_blank">除了科研论文的文本查重，图片查重软件已在路上</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=3344631" target="_blank" title="AJE学术交流">AJE学术交流</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-612874-1248586.html" target="_blank">先报名后高考是均衡高等教育资源的根本之道</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=612874" target="_blank" title="冯大诚">冯大诚</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-3362936-1248585.html" target="_blank">快开学了，我对本科生同学们的碎碎念</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=3362936" target="_blank" title="汪炼成">汪炼成</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-1275197-1248584.html" target="_blank">北极动物之七 北极燕鸥</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=1275197" target="_blank" title="高登义">高登义</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-352862-1248581.html" target="_blank">本科生时间管理：碎片化应对之减少手机依赖</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=352862" target="_blank" title="张宇宁">张宇宁</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-1557-1248569.html" target="_blank">关于科学年表的一些想法</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=1557" target="_blank" title="武夷山">武夷山</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-3430406-1248545.html" target="_blank">对新入学硕士研究生的几点建议</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=3430406" target="_blank" title="张园">张园</a></span>
+            </p>
+  			            <p>
+            <span class="l">·<a href="blog-41757-1248512.html" target="_blank">《文献阅读》课程结课总结</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=41757" target="_blank" title="王德华">王德华</a></span>
+            </p>
+  					
+          </div>
+          <div style=" border-bottom:1px solid #d4d4d4"></div>
+          <h3><span><a href="http://blog.sciencenet.cn/blog.php?mod=hot&amp;type=list" target="_blank">热门博文</a></span>
+          <span class="zhouqi">
+          <a href="javascript:;" class ="s" id="sli_1" onClick="changeBlogHot(1)" >36小时</a>&nbsp;&nbsp;
+          <!--<a href="javascript:;" id="sli_2" onClick="changeBlogHot(2)" >三天</a> -->
+          <a href="javascript:;" id="sli_2" onClick="changeBlogHot(2)" >一周</a>&nbsp;&nbsp; 
+          <!--<a href="javascript:;" id="sli_4" onClick="changeBlogHot(4)" >两周</a>-->
+          <a href="javascript:;" id="sli_3" onClick="changeBlogHot(3)" >一月</a>&nbsp;&nbsp; 
+          <!--<a href="javascript:;" id="sli_6" onClick="changeBlogHot(6)" >三月</a>--> 
+          <a href="javascript:;" id="sli_4" onClick="changeBlogHot(4)" >半年</a>&nbsp;&nbsp;
+          <a href="javascript:;" id="sli_5" onClick="changeBlogHot(5)" >所有时间</a>
+          </span>
+          <span class="more02"><a href="http://blog.sciencenet.cn/blog.php?mod=hot&amp;type=list" target="_blank">更多></a>
+          </span>
+          </h3>
+          <div class="jxbw" id="hotBlogTable">
+                      <p><span class="l">·<a href="blog-105489-1248626.html" target="_blank" title="多利亚城堡">多利亚城堡</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=105489" target="_blank" target="刘钢">刘钢</a></span></p>
+                         <p><span class="l">·<a href="blog-1557-1248685.html" target="_blank" title="悼念樊洪业老师">悼念樊洪业老师</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=1557" target="_blank" target="武夷山">武夷山</a></span></p>
+                         <p><span class="l">·<a href="blog-421287-1248591.html" target="_blank" title="蝴蝶">蝴蝶</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=421287" target="_blank" target="刘旭霞">刘旭霞</a></span></p>
+                         <p><span class="l">·<a href="blog-107667-1248638.html" target="_blank" title="太上老君说好羞羞：卡片机傻拍2020（38）">太上老君说好羞羞：卡片机傻拍2020（38）</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=107667" target="_blank" target="杨正瓴">杨正瓴</a></span></p>
+                         <p><span class="l">·<a href="blog-5889-1248596.html" target="_blank" title="箭叶秋葵">箭叶秋葵</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=5889" target="_blank" target="朱晓刚">朱晓刚</a></span></p>
+                         <p><span class="l">·<a href="blog-437607-1248679.html" target="_blank" title="城门上有个月亮">城门上有个月亮</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=437607" target="_blank" target="郑永军">郑永军</a></span></p>
+                         <p><span class="l">·<a href="blog-69051-1248590.html" target="_blank" title="诵老树（诗配画） - 【悠悠同学情182】">诵老树（诗配画） - 【悠悠同学情182】</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=69051" target="_blank" target="徐长庆">徐长庆</a></span></p>
+                         <p><span class="l">·<a href="blog-220220-1248556.html" target="_blank" title="教育随想之尊重学生">教育随想之尊重学生</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=220220" target="_blank" target="陈立群">陈立群</a></span></p>
+                         <p><span class="l">·<a href="blog-702820-1248587.html" target="_blank" title="为博士生证婚讲话">为博士生征婚讲话</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=702820" target="_blank" target="张士宏">张士宏</a></span></p>
+                         <p><span class="l">·<a href="blog-827932-1248622.html" target="_blank" title="情理之中，意料之外">情理之中，意料之外</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=827932" target="_blank" target="张忆文">张忆文</a></span></p>
+                         <p><span class="l">·<a href="blog-3271227-1248637.html" target="_blank" title="彩虹马齿苋">彩虹马齿苋</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=3271227" target="_blank" target="杨卫东">杨卫东</a></span></p>
+                         <p><span class="l">·<a href="blog-109342-1248629.html" target="_blank" title="丧偶之后，老男人该不该续弦？">丧偶之后，老男人该不该续弦？</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=109342" target="_blank" target="施焕中">施焕中</a></span></p>
+                         <p><span class="l">·<a href="blog-629442-1248642.html" target="_blank" title="电荷守恒定律可以从麦克斯韦方程组导出吗？">电荷守恒定律可以从麦克斯韦方程组导出吗？</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=629442" target="_blank" target="刘长礼">刘长礼</a></span></p>
+                         <p><span class="l">·<a href="blog-3319332-1248616.html" target="_blank" title="唱歌的天使——天使花！">唱歌的天使——天使花！</a></span> <span class="r"><a href="home.php?mod=space&amp;uid=3319332" target="_blank" target="栗茂腾">栗茂腾</a></span></p>
+                       </div>
+        </div>
+      </div>
+      <!--right-->
+      <div class="mright">
+       
+        <!--公开课-->
+        <div class="box">
+          <h1><a href="https://v.sciencenet.cn/index" target="_blank">视频直播</a><span class="more"><a href="https://v.sciencenet.cn/index" target="_blank" style="margin-left:100px">更多></a></span></h1>
+          <div class="font2">
+            <ul>
+         	                <li>·<a href="https://v.sciencenet.cn/detail/v_5f4c6e18e4b0182a9832c8f2/3"  target="_blank" title="Science Advances | 3D打印心脏瓣膜">Science Advances | 3D打印心&hellip;</a></li>
+        	              <li>·<a href="https://v.sciencenet.cn/detail/v_5f489704e4b0182a9832b486/3"  target="_blank" title="Nature｜首个0.1毫米机器人问世">Nature｜首个0.1毫米机器人问&hellip;</a></li>
+        	              <li>·<a href="https://v.sciencenet.cn/detail/v_5f47b8c1e4b011878733cd8d/3"  target="_blank" title="PNAS｜植物干细胞：两个明星基因的“星星”相“吸”">PNAS｜植物干细胞：两个明星基&hellip;</a></li>
+        	              <li>·<a href="https://v.sciencenet.cn/detail/v_5f460936e4b0118787336d10/3"  target="_blank" title="西藏羌塘藏羚羊产仔迁徙科考获得新发现">西藏羌塘藏羚羊产仔迁徙科考获&hellip;</a></li>
+        	            </ul>
+          </div>
+        </div>       
+        <!--在线访谈-->
+        <div class="box" style="padding-bottom:7px">
+          <h1><a href="http://talk.sciencenet.cn/?s=/Index/all/" target="_blank">在线访谈</a><span class="more"><a href="http://talk.sciencenet.cn/?s=/Index/all/" target="_blank">更多></a></span></h1>
+ 		  <p class='w' style='margin:12px 0px'><a href='http://talk.sciencenet.cn/?id=113'><img src='http://talk.sciencenet.cn/upload/tempimage/1592449555424.jpg' width='140' height='41' /></a></p><p><a href='http://talk.sciencenet.cn/?id=113'>为你和你的科研树立“品牌” </a></p>        </div>       
+        <!--博文专题-->
+        <div class="box">
+          <h1><a href="blog.php?mod=subjectlist" target="_blank">博文专题</a><span class="more"><a href="http://news.sciencenet.cn/zt/" target="_blank">更多></a></span></h1>
+                    <p style="margin:15px 0px 16px 0px;"><a href="http://news.sciencenet.cn/sub18.aspx?id=747" target="_blank"><img src="./data/attachment/olddata/kexue.com.cn/admin/upload/20103493910933.gif" width="140" height="41" /></a></p>
+          <div class="font2">
+            <ul>
+         	                <li>·<a href="home.php?mod=space&amp;uid=3234092&amp;do=blog&amp;id=1248416"  target="_blank" title="没有经过任何论文写作训练，应该如何下手？">没有经过任何论文写作训练，&hellip;</a></li>
+        	              <li>·<a href="home.php?mod=space&amp;uid=612874&amp;do=blog&amp;id=1247621"  target="_blank" title="为什么有些学生对于论文的写作感到困难">为什么有些学生对于论文的写&hellip;</a></li>
+        	            </ul>
+          </div>
+                    <p style="margin:15px 0px 16px 0px;"><a href="http://news.sciencenet.cn/sub18.aspx?id=777" target="_blank"><img src="./data/attachment/olddata/kexue.com.cn/admin/upload/20095811554500.jpg" width="140" height="41" /></a></p>
+          <div class="font2">
+            <ul>
+         	                <li>·<a href="home.php?mod=space&amp;uid=1953670&amp;do=blog&amp;id=1248012"  target="_blank" title="研究生第一课，我想告诉你10句话">研究生第一课，我想告诉你10&hellip;</a></li>
+        	              <li>·<a href="home.php?mod=space&amp;uid=3392392&amp;do=blog&amp;id=1246959"  target="_blank" title="为什么考试成绩影响了研究生的自信？">为什么考试成绩影响了研究生&hellip;</a></li>
+        	            </ul>
+          </div>
+                    <p style="margin:15px 0px 16px 0px;"><a href="http://news.sciencenet.cn/sub18.aspx?id=781" target="_blank"><img src="./data/attachment/olddata/kexue.com.cn/admin/upload/20099616353307.jpg" width="140" height="41" /></a></p>
+          <div class="font2">
+            <ul>
+         	                <li>·<a href="home.php?mod=space&amp;uid=475824&amp;do=blog&amp;id=1247759"  target="_blank" title="留学系列 科研篇二：基金申请">留学系列 科研篇二：基金申&hellip;</a></li>
+        	              <li>·<a href="home.php?mod=space&amp;uid=69051&amp;do=blog&amp;id=1240742"  target="_blank" title="科学问题属性的学习和选择何其重要">科学问题属性的学习和选择何&hellip;</a></li>
+        	            </ul>
+          </div>
+                    <p style="margin:15px 0px 16px 0px;"><a href="http://news.sciencenet.cn/sub18.aspx?id=717" target="_blank"><img src="./data/attachment/olddata/kexue.com.cn/admin/upload/201099143513290.gif" width="140" height="41" /></a></p>
+          <div class="font2">
+            <ul>
+         	                <li>·<a href="home.php?mod=space&amp;uid=769813&amp;do=blog&amp;id=1247661"  target="_blank" title="10大拒稿原因及其避免方式">10大拒稿原因及其避免方式</a></li>
+        	              <li>·<a href="home.php?mod=space&amp;uid=3400925&amp;do=blog&amp;id=1246372"  target="_blank" title="一稿多投和学术不端的再思考">一稿多投和学术不端的再思考</a></li>
+        	            </ul>
+          </div>
+                  </div>        
+      </div>
+    </div>
+    <div id="main">
+     
+      <div class="poto">
+        <div  class="potobox1" id="mybdemo">
+  			<table border="0" cellpadding="0" cellspacing="0" >
+            <tr>
+            <td  valign="middle" id="mybdemo1">
+            <table border="0" cellpadding="0" cellspacing="0" style="">
+            <tr>
+                        <td style="" valign="middle">
+            <a href="http://blog.sciencenet.cn/blog-478695-1248375.html" target="_blank">
+            <img src="./data/attachment/blog/202008/165427vnoos9oaobxp9dov.jpg" width="160" height="110" border="0" title="逛柳兰沟" /></a>
+            </td>
+                        <td style="" valign="middle">
+            <a href="http://blog.sciencenet.cn/blog-1525565-1248377.html" target="_blank">
+            <img src="./data/attachment/blog/202008/155400hsmeeerhezmh1del.jpg" width="160" height="110" border="0" title="青藏土壤科考|秘境，水稻，和土" /></a>
+            </td>
+                        <td style="" valign="middle">
+            <a href="http://blog.sciencenet.cn/blog-478695-1248036.html" target="_blank">
+            <img src="./data/attachment/blog/202008/122113ezzf41d8of8cq4ca.jpg" width="160" height="110" border="0" title="登东猴顶山" /></a>
+            </td>
+                        <td style="" valign="middle">
+            <a href="http://blog.sciencenet.cn/blog-254303-1248067.html" target="_blank">
+            <img src="./data/attachment/blog/202008/162412bn3i83i8i79gu8ns.jpg" width="160" height="110" border="0" title="垂涎欲滴" /></a>
+            </td>
+                        <td style="" valign="middle">
+            <a href="http://blog.sciencenet.cn/blog-478695-1247898.html" target="_blank">
+            <img src="./data/attachment/blog/202008/113556dhh25hw2i5a4stut.jpg" width="160" height="110" border="0" title="游元上都草原" /></a>
+            </td>
+                        <td style="" valign="middle">
+            <a href="http://blog.sciencenet.cn/blog-2148125-1247808.html" target="_blank">
+            <img src="./data/attachment/blog/202008/160842t69bf2xa22evlvfx.jpg" width="160" height="110" border="0" title="青城前山" /></a>
+            </td>
+                        <td style="" valign="middle">
+            <a href="http://blog.sciencenet.cn/blog-1275197-1247643.html" target="_blank">
+            <img src="./data/attachment/blog/202008/131829mkqqm19cuyu9wcyq.jpg" width="160" height="110" border="0" title="北极贼鸥何出此名" /></a>
+            </td>
+                        <td style="" valign="middle">
+            <a href="http://blog.sciencenet.cn/blog-5889-1247504.html" target="_blank">
+            <img src="./data/attachment/blog/202008/104716t8fu5jlkijsu78uc.jpg" width="160" height="110" border="0" title="辰山槐" /></a>
+            </td>
+            </tr>
+    </table>
+            </td>
+            <td id="mybdemo2">
+            </td>
+            </tr>
+           		</table>
+        </div>
+        <script type="text/javascript">
+<!--
+  var speed=20//速度数值越大速度越慢
+  var mybdemo=document.getElementById("mybdemo");
+  var mybdemo1=document.getElementById("mybdemo1");
+  var mybdemo2=document.getElementById("mybdemo2");
+  mybdemo2.innerHTML=mybdemo1.innerHTML
+
+  function Marquee(){
+  if(mybdemo2.offsetWidth-mybdemo.scrollLeft<=0){
+  mybdemo.scrollLeft-=mybdemo1.offsetWidth;
+  }else{
+  mybdemo.scrollLeft++;
+  }
+  }
+  var MyMar=setInterval(Marquee,speed)
+  mybdemo.onmouseover=function() {clearInterval(MyMar)}
+  mybdemo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+  
+-->
+                        </script>
+      	<p style=" text-align:right; font-size:12px; padding-right:0px;"><a href="blog.php?mod=pic"  target="_blank">更多图片></a></p>
+      </div>
+  <!--
+      <div class="mright">
+        <div class="box" style="height:130px; _margin-top:7px;">
+          <h1><a href="blog.php?mod=impeach"  target="_blank">实名举报</a><span class="more01"><a href="blog.php?mod=impeach"  target="_blank">我要举报></a></span></h1>
+          <div class="font2">
+            <ul>
+                            <li>·<a href="blog-822560-726905.html" target="_blank">关于王正敏问题:来自中国科&hellip;</a></li>
+           	                <li>·<a href="blog-822560-663303.html" target="_blank">王正敏欺骗中国耳鼻喉科泰斗&hellip;</a></li>
+           	                <li>·<a href="blog-822560-663110.html" target="_blank">中科院院士王正敏欺骗世界耳&hellip;</a></li>
+           	                <li>·<a href="blog-822560-663128.html" target="_blank">我不得不公开Ugo Fisch教授&hellip;</a></li>
+           	              </ul>
+          </div>
+        </div>
+      </div>
+  -->
+    </div>
+    <div id="main">
+      <div class="poto01">
+        <div class="left">
+                  <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=1" target="_blank">科研笔记</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=1" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-455749-1248495.html" target="_blank">极简生活法则——阅读笔记</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=455749" target="_blank">贾琳</a></span></li>
+                          <li><span class="le">·<a href="blog-38899-1248475.html" target="_blank">巨型OA期刊随着出版模式的成熟失去动力</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=38899" target="_blank">任胜利</a></span></li>
+                          <li><span class="le">·<a href="blog-1243751-1248459.html" target="_blank">西北偏北</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=1243751" target="_blank">邓涛</a></span></li>
+                          <li><span class="le">·<a href="blog-40841-1248430.html" target="_blank">一个人机融合智能卡脖子的问题</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=40841" target="_blank">刘伟</a></span></li>
+                          <li><span class="le">·<a href="blog-3386662-1248248.html" target="_blank">VASP常用电荷相关计算总结</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3386662" target="_blank">王宗国</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=9" target="_blank">教学心得</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=9" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-3234816-1248462.html" target="_blank">线上授课的优缺点分析以及一些需要注意&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3234816" target="_blank">钟定胜</a></span></li>
+                          <li><span class="le">·<a href="blog-71079-1248240.html" target="_blank">中国高等教育2020年新冠春季学期教学特&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=71079" target="_blank">刘立</a></span></li>
+                          <li><span class="le">·<a href="blog-71964-1248203.html" target="_blank">大学写作课成刚需，如何跨越理想和现实&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=71964" target="_blank">马臻</a></span></li>
+                          <li><span class="le">·<a href="blog-352862-1248186.html" target="_blank">本科生科研指南（59）：气体定律之从道&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=352862" target="_blank">张宇宁</a></span></li>
+                          <li><span class="le">·<a href="blog-3400925-1248061.html" target="_blank">在线教学初体验：网课杂记</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3400925" target="_blank">杜学领</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=7" target="_blank">科普集锦</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=7" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-347754-1248763.html" target="_blank">狂犬病毒的分类</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=347754" target="_blank">严家新</a></span></li>
+                          <li><span class="le">·<a href="blog-3319332-1248754.html" target="_blank">20200901——萍蓬草（Nuphar&#160;pumi&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3319332" target="_blank">栗茂腾</a></span></li>
+                          <li><span class="le">·<a href="blog-3437521-1248695.html" target="_blank">光学——科学的瞭望塔</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3437521" target="_blank">廖川</a></span></li>
+                          <li><span class="le">·<a href="blog-3319332-1248603.html" target="_blank">20200831——芡实（Euryale&#160;ferox&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3319332" target="_blank">栗茂腾</a></span></li>
+                          <li><span class="le">·<a href="blog-3319332-1248492.html" target="_blank">鸡矢藤叶片揉搓后散发的“鸡屎味”是啥&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3319332" target="_blank">栗茂腾</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=5" target="_blank">人物纪事</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=5" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-3377-1248491.html" target="_blank">我的自修 我的大学</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3377" target="_blank">刘全慧</a></span></li>
+                          <li><span class="le">·<a href="blog-42818-1248435.html" target="_blank">疫情中的工作片段</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=42818" target="_blank">罗帆</a></span></li>
+                          <li><span class="le">·<a href="blog-39731-1248362.html" target="_blank">没有所谓天才，只有刻意训练</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=39731" target="_blank">刘进平</a></span></li>
+                          <li><span class="le">·<a href="blog-215715-1248084.html" target="_blank">致初入职场的儿子</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=215715" target="_blank">刘玉仙</a></span></li>
+                          <li><span class="le">·<a href="blog-3437252-1247555.html" target="_blank">访学心路（中）</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3437252" target="_blank">方欧娅</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=10" target="_blank">人文社科</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=10" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-1557-1248458.html" target="_blank">汉语词汇杂记数则</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=1557" target="_blank">武夷山</a></span></li>
+                          <li><span class="le">·<a href="blog-45134-1248376.html" target="_blank">大同行评议背景下从事科研的注意事项</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=45134" target="_blank">俞立平</a></span></li>
+                          <li><span class="le">·<a href="blog-3446769-1248294.html" target="_blank">书法与写字的区别</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3446769" target="_blank">李焰东</a></span></li>
+                          <li><span class="le">·<a href="blog-612874-1248190.html" target="_blank">杂说“两”</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=612874" target="_blank">冯大诚</a></span></li>
+                          <li><span class="le">·<a href="blog-45134-1248169.html" target="_blank">青年教师如何选择研究方向</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=45134" target="_blank">俞立平</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=4" target="_blank">生活其它</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=4" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-69051-1248733.html" target="_blank">闫家岗荷花湖见闻（5）：雕塑（结束篇&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=69051" target="_blank">徐长庆</a></span></li>
+                          <li><span class="le">·<a href="blog-678176-1248732.html" target="_blank">多年后再使用图书馆</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=678176" target="_blank">胡懋仁</a></span></li>
+                          <li><span class="le">·<a href="blog-2148125-1248649.html" target="_blank">庚子青城山避暑（十一）：朝天椒</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=2148125" target="_blank">刁承泰</a></span></li>
+                          <li><span class="le">·<a href="blog-5889-1248447.html" target="_blank">棉花</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=5889" target="_blank">朱晓刚</a></span></li>
+                          <li><span class="le">·<a href="blog-299-1248439.html" target="_blank">张海霞︱女博士嫁给谁？</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=299" target="_blank">张海霞</a></span></li>
+                        </ul>
+          </div>
+                 </div>
+        <div class="right">
+                  <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=11" target="_blank">论文交流</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=11" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-769813-1248625.html" target="_blank">发表会议论文 v.s 期刊论文，孰先孰后</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=769813" target="_blank">Editag</a></span></li>
+                          <li><span class="le">·<a href="blog-3387871-1248619.html" target="_blank">第一封发给未来导师的套磁信怎么写？</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3387871" target="_blank">国际科</a></span></li>
+                          <li><span class="le">·<a href="blog-3234092-1248600.html" target="_blank">学术界不投中文期刊的原因是什么？</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3234092" target="_blank">投必得</a></span></li>
+                          <li><span class="le">·<a href="blog-3158122-1248583.html" target="_blank">the plant journal：水稻SWI/SNF染色质&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3158122" target="_blank">郝兆东</a></span></li>
+                          <li><span class="le">·<a href="blog-3234092-1248513.html" target="_blank">QQ截图也能成为科研神器？你不知道的神&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3234092" target="_blank">投必得</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=3" target="_blank">观点评述</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=3" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-678176-1248578.html" target="_blank">怎样看待中国教育</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=678176" target="_blank">胡懋仁</a></span></li>
+                          <li><span class="le">·<a href="blog-494-1248559.html" target="_blank">高校“十四五”规划：破变局、解困局、&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=494" target="_blank">沙迪</a></span></li>
+                          <li><span class="le">·<a href="blog-829-1248500.html" target="_blank">“降维收割”到底损失了谁的利益？</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=829" target="_blank">李侠</a></span></li>
+                          <li><span class="le">·<a href="blog-532981-1248479.html" target="_blank">突然觉得要为那些大学排名公司点赞！</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=532981" target="_blank">吴超</a></span></li>
+                          <li><span class="le">·<a href="blog-213646-1248417.html" target="_blank">磨刀不误砍柴工，功夫不负有心人</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=213646" target="_blank">王启云</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=2" target="_blank">海外观察</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=2" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-212210-1248655.html" target="_blank">世界名校（Top200）撤稿知多少</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=212210" target="_blank">诸平</a></span></li>
+                          <li><span class="le">·<a href="blog-472757-1248501.html" target="_blank">女儿高中的写作课</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=472757" target="_blank">周耀旗</a></span></li>
+                          <li><span class="le">·<a href="blog-1565-1248388.html" target="_blank">The 85th birthday of my wife</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=1565" target="_blank">何毓琦</a></span></li>
+                          <li><span class="le">·<a href="blog-299-1248348.html" target="_blank">跟着海霞看世界│千年老店金刚组</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=299" target="_blank">张海霞</a></span></li>
+                          <li><span class="le">·<a href="blog-3395313-1248314.html" target="_blank">重视数学与指望数学</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3395313" target="_blank">夏香根</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=6" target="_blank">图片百科</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=6" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-447363-1248761.html" target="_blank">游徐闻古港</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=447363" target="_blank">吴国林</a></span></li>
+                          <li><span class="le">·<a href="blog-252763-1248760.html" target="_blank">杜鹃花</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=252763" target="_blank">张珑</a></span></li>
+                          <li><span class="le">·<a href="blog-5889-1248730.html" target="_blank">猴欢喜</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=5889" target="_blank">朱晓刚</a></span></li>
+                          <li><span class="le">·<a href="blog-252763-1248680.html" target="_blank">樱花</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=252763" target="_blank">张珑</a></span></li>
+                          <li><span class="le">·<a href="blog-504206-1248553.html" target="_blank">栖蝶腹何便</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=504206" target="_blank">张叔勇</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=8" target="_blank">诗词雅集</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=8" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-299-1248063.html" target="_blank">海霞诗集︱势如破竹</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=299" target="_blank">张海霞</a></span></li>
+                          <li><span class="le">·<a href="blog-478695-1247898.html" target="_blank">游元上都草原</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=478695" target="_blank">蒋力</a></span></li>
+                          <li><span class="le">·<a href="blog-478695-1247710.html" target="_blank">雨后 ---- 出伏</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=478695" target="_blank">蒋力</a></span></li>
+                          <li><span class="le">·<a href="blog-69051-1247047.html" target="_blank">医师吟及其他（诗画和音乐） - 【悠悠&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=69051" target="_blank">徐长庆</a></span></li>
+                          <li><span class="le">·<a href="blog-3395313-1246969.html" target="_blank">黄叶前的秋天</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=3395313" target="_blank">夏香根</a></span></li>
+                        </ul>
+          </div>
+                   <div class="title">
+          <span class="t"><a href="blog.php?mod=type&amp;type=12" target="_blank">博客资讯</a></span>
+          <span class="more001">
+          <a href="blog.php?mod=type&amp;type=12" target="_blank">更多></a>
+          </span></div>
+          <div class="list">
+            <ul>
+                          <li><span class="le">·<a href="blog-39731-1248394.html" target="_blank">肥胖会使你死于冠状病毒的风险增加近50&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=39731" target="_blank">刘进平</a></span></li>
+                          <li><span class="le">·<a href="blog-212210-1248310.html" target="_blank">TTC-352：乳腺癌药物人体试验安全有效</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=212210" target="_blank">诸平</a></span></li>
+                          <li><span class="le">·<a href="blog-1557-1247927.html" target="_blank">美国国家科学院出版社报告：在消费者层&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=1557" target="_blank">武夷山</a></span></li>
+                          <li><span class="le">·<a href="blog-681765-1247691.html" target="_blank">2019年中国在欧专利竞争中的地位及对策&hellip;</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=681765" target="_blank">陈立新</a></span></li>
+                          <li><span class="le">·<a href="blog-39026-1247307.html" target="_blank">一位学霸的作息时间表</a></span><span class="ri"><a href="home.php?mod=space&amp;uid=39026" target="_blank">史永文</a></span></li>
+                        </ul>
+          </div>
+                   
+  
+        </div>
+      </div>
+      <div class="mright">
+        <div class="box">
+          <h2>
+            <div class="tab1" id="blogWeekTitle" onmouseover="changeblogAtiList('week')" style="cursor:pointer">博文周排行</div>
+            <div class="tab2" id="blogMonthTitle" onmouseover="changeblogAtiList('month')" style="cursor:pointer">博文月排行</div>
+          </h2>
+          <div class="font2"  id="blogWeekList">
+            <ul >
+                
+              <li>·<a href="blog-2999994-1247832.html" target="_blank" title="为什么学者一定要发表“单一作者”论文">为什么学者一定要发表“单一&hellip;</a></li>
+                
+              <li>·<a href="blog-117889-1248380.html" target="_blank" title="博士生做好四点，可以确保毕业不延期">博士生做好四点，可以确保毕&hellip;</a></li>
+                
+              <li>·<a href="blog-109342-1247980.html" target="_blank" title="2020年度国家自然科学基金项目会议评审之感慨">2020年度国家自然科学基金项&hellip;</a></li>
+                
+              <li>·<a href="blog-857880-1248014.html" target="_blank" title="写在新书《高质量SCI论文入门必备——从选题到发表》中的两封信">写在新书《高质量SCI论文入&hellip;</a></li>
+                
+              <li>·<a href="blog-616140-1248251.html" target="_blank" title="我国科技经费投入的喜与忧!">我国科技经费投入的喜与忧!</a></li>
+                
+              <li>·<a href="blog-71964-1248203.html" target="_blank" title="大学写作课成刚需，如何跨越理想和现实的鸿沟">大学写作课成刚需，如何跨越&hellip;</a></li>
+                
+              <li>·<a href="blog-1557-1248020.html" target="_blank" title="莱布尼茨的“学术关系网”">莱布尼茨的“学术关系网”</a></li>
+                
+              <li>·<a href="blog-1953670-1248012.html" target="_blank" title="研究生第一课，我想告诉你10句话">研究生第一课，我想告诉你10&hellip;</a></li>
+                
+              <li>·<a href="blog-45134-1248169.html" target="_blank" title="青年教师如何选择研究方向">青年教师如何选择研究方向</a></li>
+                          </ul>
+  <div class="more11"><a href="blog.php?mod=rank&amp;type=week" target="_blank">更多></a></div>
+          </div>
+          <div class="font2"  id="blogMonthList" style="display:none">
+            <ul >
+                
+              <li>·<a href="blog-2520182-1247675.html" target="_blank" title="致友人高一一之写在你小学前（一）">致友人高一一之写在你小学前&hellip;</a></li>
+                
+              <li>·<a href="blog-45-1245966.html" target="_blank" title="2020年国家“杰青”分析：你的学校排第几？">2020年国家“杰青”分析：你&hellip;</a></li>
+                
+              <li>·<a href="blog-114283-1244750.html" target="_blank" title="疫情下学位论文的问题">疫情下学位论文的问题</a></li>
+                
+              <li>·<a href="blog-2999994-1247832.html" target="_blank" title="为什么学者一定要发表“单一作者”论文">为什么学者一定要发表“单一&hellip;</a></li>
+                
+              <li>·<a href="blog-673617-1245594.html" target="_blank" title="帽子人才的艰辛生活">帽子人才的艰辛生活</a></li>
+                
+              <li>·<a href="blog-575926-1245495.html" target="_blank" title="从居里夫人的抱怨谈起">从居里夫人的抱怨谈起</a></li>
+                
+              <li>·<a href="blog-71964-1245715.html" target="_blank" title="破除“唯论文”要谨防理解误区">破除“唯论文”要谨防理解误&hellip;</a></li>
+                
+              <li>·<a href="blog-71964-1245473.html" target="_blank" title="如何借助PPT作好你的报告">如何借助PPT作好你的报告</a></li>
+                
+              <li>·<a href="blog-412323-1245731.html" target="_blank" title="将来不当科学家今天不必做科研？">将来不当科学家今天不必做科&hellip;</a></li>
+                          </ul>
+            <div class="more11"><a href="blog.php?mod=rank&amp;type=month" target="_blank">更多></a></div>
+          </div>
+        </div>
+        <script type="text/javascript">
+        function changeblogAtiList(order){
+if(order=='week'){
+document.getElementById('blogWeekTitle').className='tab1';
+document.getElementById('blogMonthTitle').className='tab2';
+document.getElementById('blogWeekList').style.display='';
+document.getElementById('blogMonthList').style.display='none';
+}else if(order=='month'){
+document.getElementById('blogWeekTitle').className='tab2';
+document.getElementById('blogMonthTitle').className='tab1';
+document.getElementById('blogWeekList').style.display='none';
+document.getElementById('blogMonthList').style.display='';
+}
+}
+function changeblogList(order){
+if(order=='week'){
+document.getElementById('weekBlogTitle').className='tab01';
+document.getElementById('allBlogTitle').className='tab02';
+document.getElementById('avgBlogTitle').className='tab02';
+document.getElementById('weekBlogList').style.display='';
+document.getElementById('allBlogList').style.display='none';
+document.getElementById('avgBlogList').style.display='none';
+}else if(order=='all'){
+document.getElementById('weekBlogTitle').className='tab02';
+document.getElementById('allBlogTitle').className='tab01';
+document.getElementById('avgBlogTitle').className='tab02';
+document.getElementById('weekBlogList').style.display='none';
+document.getElementById('allBlogList').style.display='';
+document.getElementById('avgBlogList').style.display='none';
+}else if(order=='avg'){
+document.getElementById('weekBlogTitle').className='tab02';
+document.getElementById('allBlogTitle').className='tab02';
+document.getElementById('avgBlogTitle').className='tab01';
+document.getElementById('weekBlogList').style.display='none';
+document.getElementById('allBlogList').style.display='none';
+document.getElementById('avgBlogList').style.display='';
+}
+}
+        </script>
+        <div class="box">
+          <h2>
+            <div class="tab01" id="weekBlogTitle" onmouseover="changeblogList('week');" style="cursor:pointer">周排行</div>
+            <div class="tab02" id="allBlogTitle" onmouseover="changeblogList('all');" style="cursor:pointer">总排行</div>
+            <div class="tab02" id="avgBlogTitle" onmouseover="changeblogList('avg');" style="cursor:pointer">均排行</div>
+          </h2>
+          <div class="font2" id="weekBlogList">
+            <ul>
+                
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=681765" target="_blank" title="专利信息">专利信息</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=39731" target="_blank" title="">刘进平的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=415" target="_blank" title="黄安年的博客">黄安年的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=1557" target="_blank" title="武夷山">武夷山</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=2999994" target="_blank" title="">王立新的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=3319332" target="_blank" title="">栗茂腾的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=2277" target="_blank" title="全球变化- 杨学祥工作室">全球变化- 杨学祥工作室</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=595906" target="_blank" title="">刘万东的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=299" target="_blank" title="微纳世界大，和谐天地宽">微纳世界大，和谐天地宽</a></a></li>
+       		              </ul>
+            <div class="more11"><a href="blog.php?mod=list" target="_blank">更多></a></div>
+          </div>
+          <div class="font2" style="display:none" id="allBlogList">
+            <ul>
+                
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=415" target="_blank" title="黄安年的博客">黄安年的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=280034" target="_blank" title="许培扬博客">许培扬博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=2277" target="_blank" title="全球变化- 杨学祥工作室">全球变化- 杨学祥工作室</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=1557" target="_blank" title="武夷山">武夷山</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=53483" target="_blank" title="陈安">陈安</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=39731" target="_blank" title="">刘进平的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=3075" target="_blank" title="complexityworld">complexityworld</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=41174" target="_blank" title="氢分子医学">氢分子医学</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=226" target="_blank" title="时空可变系多线矢世界">时空可变系多线矢世界</a></a></li>
+       		              </ul>
+            <div class="more11"><a href="blog.php?mod=list" target="_blank">更多></a></div>
+          </div>
+          <div class="font2" style="display:none" id="avgBlogList">
+            <ul>
+                
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=3201402" target="_blank" title="Charlesworth 官方博客">Charlesworth 官方博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=642008" target="_blank" title="">王大元的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=71964" target="_blank" title="马臻的博客">马臻的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=1129566" target="_blank" title="">王崇臣的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=412323" target="_blank" title="没文化开的老文">没文化开的老文</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=58729" target="_blank" title="地学人生">地学人生</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=814548" target="_blank" title="">李明阳的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=3433908" target="_blank" title="">高世伦的博客</a></a></li>
+       		    
+              <li>·<a href="#"><a href="home.php?mod=space&amp;uid=522469" target="_blank" title="lzcyzm的博客">lzcyzm的博客</a></a></li>
+       		              </ul>
+            <div class="more11"><a href="blog.php?mod=list" target="_blank">更多></a></div>
+          </div>
+          
+        </div>
+<div class="box">
+          <h1><a href="blog.php?mod=paper" target="_blank">科学报博文</a><span class="more"><a href="blog.php?mod=paper" target="_blank" style="margin-left:115px;">更多></a></span></h1>
+          <div class="font2">
+            <ul>
+                            <li>·<a href="http://news.sciencenet.cn/sbhtmlnews/2020/8/357361.shtm" target="_blank">科学家也要三十而立</a></li>
+  			                <li>·<a href="http://news.sciencenet.cn/sbhtmlnews/2020/8/357363.shtm" target="_blank">独立与协同</a></li>
+  			                <li>·<a href="http://news.sciencenet.cn/sbhtmlnews/2020/8/357362.shtm" target="_blank">没有尽头是件很可怕的事</a></li>
+  			              </ul>
+          </div>
+        </div>
+        <div class="box">
+          <h1>在线咨询</h1>
+          <div class="font2"> <span><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1440059896&amp;site=qq&amp;menu=yes" target="_blank"> <img src="static/blog/images/img04.gif" width="75" height="24"  style=" margin:2px 0 0 25px; "/>
+          </a>
+          </span> 
+  <!--
+          <span>
+          <a target="_blank" href="http://settings.messenger.live.com/Conversation/IMMe.aspx?invitee=a179557921e369e4@apps.messenger.live.com&amp;mkt=zh-cn">
+          <img src="static/blog/images/img05.gif" width="75" height="24" />
+          </a>
+          </span>  
+  -->    
+          </div>
+        </div>
+        <div class="box">
+          <h1>活动</h1>
+           <div class="font2" style="margin-left:10px;">
+
+              <span><a href="http://blog.sciencenet.cn/blog.php?mod=broadcast2"; target="_blank" >
+              科学网好声音
+              </a>
+              </span><br>
+              <span>
+              <a target="_blank" href="http://blog.sciencenet.cn/blog.php?mod=broadcast">
+              科学网周年庆活动
+              </a>
+              </span>
+          </div>
+        </div>
+        <div class="box">
+          <h1>友情链接</h1>
+          <div class="font2" style="margin-left:10px;">
+            <ul>
+                   
+              <li><a href="http://blog.edu.cn/" target="_blank">教育人博客</a></li>
+  <li><a href="http://www.bscb.org.cn/" target="_blank">北京细胞生物学会</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+ <div class="foot">
+    <a target="_blank" href="http://www.sciencenet.cn/aboutus/">关于我们</a>|
+    <a target="_blank" href="http://www.sciencenet.cn/shengming.aspx">网站声明</a>|
+    <a target="_blank" href="http://www.sciencenet.cn/tiaokuang.aspx">服务条款</a>|
+    <a target="_blank" href="http://www.sciencenet.cn/contact.aspx">联系方式</a>|
+    <a href="http://www.sciencenet.cn/RSS.aspx">RSS</a>|
+    <a href="http://www.stimes.cas.cn/">中国科学报社</a> 
+    <a target="_blank" href="http://www.beian.miit.gov.cn/"> 京ICP备07017567号-12</a>
+     &nbsp;京公网安备  11010802032783
+<br> Copyright @ 2007-<script type="text/javascript">var Date22 = new Date();var year22 = Date22.getFullYear();document.write(year22);</script> 中国科学报社 All Rights Reserved
+<br> 地址：北京市海淀区中关村南一条乙三号
+<br> 电话：010-62580783 
+</div>
+<span style="display:none">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcbf293a46e1e62385b889174378635f1' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</span>
+  </div>
+</div>
+</body>
+</html>
